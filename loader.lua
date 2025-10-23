@@ -9,7 +9,7 @@
               🚀 DEVWARE — Skidding is for losers 🚀
 ----------------------------------------------------------------
    One line loads all supported games:
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Devvzn/DevWare/refs/heads/main/DevMain"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/devwarerblx/devware/refs/heads/main/loader.lua"))()
 ----------------------------------------------------------------
    Supported:
    • 99 Nights In The Forest
