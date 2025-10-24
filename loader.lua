@@ -64,12 +64,10 @@ TweenService:Create(frame, TweenInfo.new(0.5, Enum.EasingStyle.Quint, Enum.Easin
 }):Play()
 
 --// Progress Bar Fill Over 20 Seconds
-TweenService:Create(progressFill, TweenInfo.new(45, Enum.EasingStyle.Linear), {
+TweenService:Create(progressFill, TweenInfo.new(25, Enum.EasingStyle.Linear), {
 	Size = UDim2.new(1, 0, 1, 0)
 }):Play()
 
---// Wait for 20 seconds
-task.wait(45)
 
 --// Fade Out and Slide Away
 TweenService:Create(frame, TweenInfo.new(0.6), {
