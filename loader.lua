@@ -23,6 +23,7 @@ if not game:IsLoaded() then game.Loaded:Wait() end
 
 pcall(function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/devwarerblx/devware/refs/heads/main/debug/hook.lua"))()
+		print("hooked test")
 end)
 
 local version = "v1.0.0"
