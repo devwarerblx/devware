@@ -69,7 +69,7 @@ TweenService:Create(progressFill, TweenInfo.new(20, Enum.EasingStyle.Linear), {
 }):Play()
 
 --// Wait for 20 seconds
-task.wait(20)
+task.wait(45)
 
 --// Fade Out and Slide Away
 TweenService:Create(frame, TweenInfo.new(0.6), {
