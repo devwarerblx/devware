@@ -11,7 +11,7 @@ screenGui.Parent = PlayerGui
 --// Create Frame
 local frame = Instance.new("Frame")
 frame.Size = UDim2.new(0, 300, 0, 80)
-frame.Position = UDim2.new(0.5, -150, 0.85, 0)
+frame.Position = UDim2.new(3.5, -100, 0.85, 0)
 frame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 frame.BorderSizePixel = 0
 frame.BackgroundTransparency = 0.2
@@ -40,7 +40,7 @@ local TweenService = game:GetService("TweenService")
 TweenService:Create(frame, TweenInfo.new(0.5), {BackgroundTransparency = 0.2}):Play()
 
 --// Wait 10 seconds
-task.wait(10)
+task.wait(20)
 
 --// Tween fade out
 TweenService:Create(frame, TweenInfo.new(0.5), {BackgroundTransparency = 1}):Play()
